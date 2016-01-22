@@ -1,0 +1,159 @@
+									/*phgwpi APPS*/
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+   html{border:1px inset #F75549;
+        margin: 10px;
+        border-radius:10px;
+        border-bottom:none; }
+    
+    body {
+    	   background-color: #F1F1F1;   
+         font-family: 'juralight'; 	   
+    	   text-align: center;
+    	     }  
+
+    header{margin-top:50px;}
+    
+     nav{margin-top: 40px;}
+     
+     section{width: 90%;
+            margin: auto;}
+     
+    footer{margin-top: 120px;}          	   
+    	   
+    h3{  
+           font-family: 'jurademibold';  
+       text-align: center;
+       color: #F75549;
+      }
+      
+      @font-face {
+    font-family: 'juralight';
+    src: url('tipow1p/jura-light-webfont.eot');
+    src: url('tipow1p/jura-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('tipow1p/jura-light-webfont.woff2') format('woff2'),
+         url('tipow1p/jura-light-webfont.woff') format('woff'),
+         url('tipow1p/jura-light-webfont.ttf') format('truetype'),
+         url('tipow1p/jura-light-webfont.svg#juralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+   @font-face {
+    font-family: 'jurademibold';
+    src: url('tipow1p/jura-demibold-webfont.eot');
+    src: url('tipow1p/jura-demibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('tipow1p/jura-demibold-webfont.woff2') format('woff2'),
+         url('tipow1p/jura-demibold-webfont.woff') format('woff'),
+         url('tipow1p/jura-demibold-webfont.ttf') format('truetype'),
+         url('tipow1p/jura-demibold-webfont.svg#jurademibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+      
+      #texto{
+      	   width: 60%;
+            margin: auto;
+            margin-top: 40px;}
+            
+      p{margin-top: 20px;}
+      
+    
+     a{text-decoration: none;}           
+    .but1{
+    	    background-color: #CADFAA;    	    
+    	    padding: 20px;
+    	    color:#006666;
+    	   font-family: 'jurademibold'; 
+    	    border:2px outset #ffff00;
+    	    border-radius:10px; 
+    	    text-decoration:none; 
+    	    text-align:center; 
+          margin: 5px;
+          }
+    .but1:hover {
+    	          background:#F75549;
+    	          color:#fff; 
+    	          border-radius:15px;
+    	          opacity: 0.6;}    
+	 	 
+	 #genero{margin:20px;
+	         font-family: 'jurademibold'; } 	 
+    #informe{margin-top: 20px;}   
+    
+    #corredor,#dni,#zodiaco{margin-top: 40px;} 
+    
+    input{
+    	    background:#F1F1F1;
+    	    border-radius:10px;
+    	    text-align: center;
+    	    border-color:#000;
+    	    margin:2px; }  
+    	    
+    	    .introdatos{border:1px inset #F75549;
+    	                height: 50px;
+    	                 width: 100px;
+    	                 font-size: 2em;
+    	                 font-family: 'jurademibold';
+    	                 color:#006666;
+    	                  } 
+    	                  
+    	                  .introdni{border:1px inset #F75549;
+    	                height: 50px;
+    	                 width: 240px;
+    	                 font-size: 2em;
+    	                 font-family: 'jurademibold';
+    	                 color:#006666;
+    	                  } 
+     
+     select{
+     	      background-color:#CADFAA;
+     	      border-radius:10px;
+     	      border:1px outset #F75549;
+     	      height: 60px; 
+     	      width:120px; 
+     	      text-align:center;
+     	      font-family: 'jurademibold';
+     	      color:#006666;
+     	      border-style: outset;color:#000;
+     	       }
+
+       	       
+     	       
+    #info1,#info2,#info3{
+    	                  background-color: #F1F1F1;
+    	                  width:130px; border:0;  
+    	                  font-family: 'jurademibold';
+    	                  font-size:1.3em;  
+    	                  color:#006666;	                  
+    	                    }   
+                         #info2,#info3{width: 100%;
+                                      font-size:1em;
+                                      margin: 20px;
+                                      text-align: center;}
+    	                     
+           #imc-bou{margin-top: 20px;
+                    }    	                    
+    	                    
+   
+    
+      
+
+
+   @media only screen and (max-width: 800px) {
+   	#texto{width: 90%;}
+   	
+   } 
+   
+   @media only screen and (max-width: 400px) {
+   	#texto{width: 100%;}
+   	    html{margin:2px; }
+   }
+    
+    
+   

@@ -1,0 +1,55 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+	<link rel="shortcut icon" href="dossier/w1p.ico">
+	<link rel="stylesheet" href="dossier/w1p.css" />
+	<script src="dossier/w1p.js"></script>			 
+	<title>W1P: Corredor</title>
+	</head>
+	<body>
+	
+		<header>
+		<h3>Corredor</h3>
+		</header>
+	
+	
+	<section>
+
+    <p>Los datos que necesito son su peso en kilogramos y los kilómetros que ha recorrido.</p>
+	
+	<form>  
+      <div id="corredor">
+
+      <div>
+      <input  class="introdatos"  title="Mi peso en Kilogramos" placeholder="peso" name=myWeight onChange="SetMyWeight(this)">
+      </div>
+      <div>
+      <input  class="introdatos"  title="Kilómetros que he recorrido"  placeholder="Km" name=myDistance onChange="SetmyDistance(this)">
+      </div>  
+      
+            </div>      
+
+     <div id="info-corredor">       
+        
+     <div>
+     <input id="info3" title="Número de calorias eliminadas" type disabled="" name="Fdiff" value="">
+     </div>
+     
+     <div>
+     <input id="info2" type disabled="" name="comment" >
+     </div>
+     
+     </div>
+     
+     <div><input class="but1" title="Calcular" type=button onClick="HowMany(this.form)" value="Calcular">
+     <input class="but1" title="Borrar" type=button value="Borrar" onClick="ClearForm(this.form)"></div>     
+   </form>
+    
+    <div><a href="w1p.html"><input class="but1" title="Inicio" type="submit"  value="<<"></a></div>  	
+	</section>
+	
+	
+	</body>
+	</html>

@@ -1,0 +1,80 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+		<link rel="shortcut icon" href="dossier/w1p.ico">
+		<link rel="stylesheet" href="dossier/w1p.css" />
+		<script src="dossier/w1p.js"></script>
+	<title>W1P: IMC</title>
+			      
+	</head>
+	<body>
+	    
+		<header>
+		<h3>&Iacute;ndice de Masa Corporal</h3>
+		</header>
+		
+		<section>
+		
+	  <form name="bmi" method="post">     
+	        	
+	          <div id="genero">
+	          <input type="radio" name="sex" checked>
+	            Hombre 
+	            <input type="radio" name="sex">
+	            Mujer 
+	            </div>  
+	        
+	          <div>
+	          <input class="introdatos"  maxlength=4 value="" name="wt" placeholder="Peso" title="Peso" > 	          
+	          <select name="wu">
+	                      <option>Libras</option>
+	                      <option>kilogramos</option>	                      
+             </select>
+             </div>
+	                      
+	        <div>
+	        <input class="introdatos"  maxlength=3 value="" name="ht" placeholder="Altura" title="Altura" > 
+	          <select name="hu">
+	                      <option>Pulgadas</option>
+	                      <option>Cent&iacute;metros</option> 
+	                      <option>M&eacute;tros</option>	                      
+	                      </select>
+	         </div>
+	                      
+
+    <div id="informe">
+    <h3>Informe</h3>
+    
+     <div><input id="info1" type disabled=""  maxlength=12 value="" name="interp" class="output" > </div>       
+    <div><input id="info1" type disabled=""  maxlength=5 value="" name="bmi" class="output" title="&Iacute;ndice de masa corporal">Kg/m² de IMC (Indice de masa corporal)</div>                    
+    <div><input id="info1" type disabled="" maxlength=5 value="" name="bsa"  class = "output" title="Superficie corporal">m² de superficie corporal.</div>
+   <div><input id="info1" type disabled="" maxlength=5 value="" name="leanKg" class = "output" title="Kilogramos de peso corporal">Kilogramos de peso corporal. </div>
+   <div><input id="info1" type disabled=""  maxlength=5 value="" name="idealKg" class="output" title="Peso corporal ideal"> Kg, el peso corporal ideal.</div>                 
+   <div><input id="info1" type disabled="" maxlength=5 value="" name="leanLbs" class = "output" title="libras de peso corporal">Libras de peso corporal.</div>
+  	<div> <input id="info1" type disabled="" maxlength=5 value="" name="idealLbs" class="output" title="libras" >lbs, el peso corporal ideal.</div>
+
+    </div>
+    
+
+	        
+	     <div id="imc-bou">               	   
+	   <input class="but1" type=button name=button value="Calcular" onClick="bmiCalc(this.form)">
+	  	<input class="but1" type="submit"  value="Interpreta" onclick="return confirm('El índice de masa corporal o índice de Quetelet determina a partir de la estatura y el peso, el peso más saludable que puede tener una persona. \n IMC < 18.5 = No saludable, poco peso \n IMC de 18.5 a 24.9 = Saludable \n IMC de 25 to 29.9 = Sobrepeso \n IMC > 30 = Obeso \n') "/>    
+		<input class="but1" type="Button" name="" value=" Borrar " onClick="borrando(this.form)">
+
+
+       </div>         
+         
+	<script>recalc_onclick('');  </script> 
+	 
+
+	  </form>
+	  
+	           <a href="w1p.html"><input class="but1" title="Inicio" type="submit"  value="<<"></a> 
+
+    </section>
+	
+	</body>
+	</html>
